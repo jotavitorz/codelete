@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3e6d8;
+    width: 100%;
+    height: 100%;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    color: #302d2c;
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+li {
+    color: #302d2c;
+}
+
+main {
+    background-color: #ffffff;
+    max-width: 730px;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* ========================= Section IDs ======================================= */
+
+#foto {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#title {
+    color: #121212;
+    font-family: "Young Serif", serif;
+    font-size: 2.6em;
+    font-weight: 400;
+    font-style: normal;
+    margin: 18px 0;
+}
+
+#section-time {
+    background-color: #fff5fa;
+    margin: 20px 0;
+    padding: 16px 20px;
+    border-radius: 5px;
+}
+
+#title-time {
+    color: #7b284f;
+    font-size: 18px;
+}
+
+#list-time,
+#list-ingredients,
+#list-instructions {
+  padding: 10px 20px;
+}
+
+#list-time li,
+#list-ingredients li,
+#list-instructions li {
+  padding: 6px 0;
+}
+
+#list-time li::marker {
+    color: #7b284f;
+}
+
+#list-ingredients li::marker,
+#list-instructions li::marker {
+    color: #854632;
+}
+
+#list-instructions {
+    list-style: decimal;
+}
+
+/* ========================= Section Classses ================================== */
+
+.sub-titles {
+    color: #854632;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.table-nutrition {
+    padding: 10px 35px;
+    display: flex;
+}
+
+.tb-1 {
+    flex: 1;
+    color: #302d2c;
+}
+
+.tb-2 {
+    flex: 1;
+    color: #854632;
+    font-weight: bold;
+}
+
+.division{
+    border: 1px solid #5f574e;
+    border-style: none none solid none;
+    margin: 20px 0;
+}
+
+.line { 
+    border: 1px solid #5f574e;
+    border-style: none none solid none;
+}
+
+/* ================ RESPONSIVIDADE ============== */
+
+
+@media (max-width: 730px){
+    main {
+        margin: 0 auto;
+    }
+
+    #title {
+        font-size: 2em;
+    }
+}
+
+
+
+
